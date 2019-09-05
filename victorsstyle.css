@@ -1,0 +1,114 @@
+html {
+    background-color: midnightblue;
+    background: url(background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+}
+
+.background2 {
+    background-color: midnightblue;
+    background: url(background2.jpg) no-repeat center center fixed; 
+    filter: contrast(200%);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.aboutmetext {
+    font-family: 'Roboto Mono', monospace;
+    color:white;
+    font-size:30px;
+    margin: 2%;
+}
+
+.textbacking {
+    background-color:crimson;
+}
+
+#page_title {
+    vertical-align: middle;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 70px;
+    background: url(headerphoto.jpg) purple;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px;
+    padding: 15px 15px;
+    border: 4px lightskyblue;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 3%;
+    color: WhiteSmoke;
+    filter: contrast(200%);
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: space-around;
+    margin-top: 2% !important;
+}
+
+.box {
+    height: 300px;
+    width: 300px;
+    margin-bottom: 3% !important;
+    filter: invert(100%);
+}
+
+.box:hover {
+    height: 300px;
+    width: 300px;
+    margin-bottom: 3% !important;
+    filter: invert(80%);
+}
+
+#boxfile:hover {
+    height: 300px;
+    width: 300px;
+    margin-bottom: 3% !important;
+    filter: invert(80%);
+    background-image:url(file2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    
+
+.boxtext {
+    color: lightskyblue;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 70px;
+}
+
+.homebutton {
+    height: 45px;
+    width: 45px;
+    margin-left: 4%;
+}
+
+.homebutton:hover {
+    height: 45px;
+    width: 45px;
+    margin-left: 4%;
+    filter: invert(100%);
+}
+
+.homebutton2 {
+    height: 50px;
+    width: 50px;
+    margin-left: 95%;
+    filter: invert(100%);
+}
+
+.homebutton2:hover {
+    height: 50px;
+    width: 50px;
+    filter: invert(70%);
+}
